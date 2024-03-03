@@ -14,6 +14,9 @@ This script allows users to input a restaurant ID, fetches the menu data of that
 
 ## Usage
 
+- Clone the repository or download the script `swiggy_menu_fetch.py`.
+
+
 1. **Install Dependencies**:
    - Make sure you have Python installed on your system.
    - Install the required dependencies using pip:
