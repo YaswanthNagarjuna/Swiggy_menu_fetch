@@ -9,8 +9,8 @@ This script allows users to input a restaurant ID, fetches the menu data of that
 ## Requirements
 
 - Python 3.x
-- requests library (`pip install requests`)
-- pandas library (`pip install pandas`)
+- requests library
+- pandas library
 
 ## Usage
 
