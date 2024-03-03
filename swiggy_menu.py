@@ -59,5 +59,4 @@ def fetch_and_save_menu():
     except (KeyError, ValueError) as e:
         print("Error processing data from API:", e)
 
-# Example usage
 fetch_and_save_menu() 
