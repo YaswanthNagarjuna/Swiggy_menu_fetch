@@ -35,10 +35,10 @@ def fetch_and_save_menu():
             card_group_map = card.get('groupedCard', {}).get('cardGroupMap', {})
             regular_cards = card_group_map.get('REGULAR', {}).get('cards', [])
             for grouped_card in regular_cards:
-                item_cards = grouped_card.get('card', {}).get('card', {}).get('itemCards', [])
-                for item_card in item_cards:
-                    if item_card.get('card', {}).get('@type') == 'type.googleapis.com/swiggy.presentation.food.v2.Dish':
-                        dish_info = item_card.get('card', {}).get('info', {})
+                menu_cards = grouped_card.get('card', {}).get('card', {}).get('itemCards', [])
+                for menu_card in menu_cards:
+                    if menu_card.get('card', {}).get('@type') == 'type.googleapis.com/swiggy.presentation.food.v2.Dish':
+                        dish_info = menu_card.get('card', {}).get('info', {})
                         menu_items.append({
                             'Name': dish_info.get('name', ''),
                             'Category': dish_info.get('category', ''),
