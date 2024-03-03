@@ -36,7 +36,7 @@ This script allows users to input a restaurant ID, fetches the menu data of that
 
 ```
 python swiggy_menu.py
-Enter the restaurant ID: 71320
+Enter the restaurant ID: 71349
 CSV file saved successfully.
 ```
 ## Notes
